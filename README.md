@@ -1,4 +1,4 @@
-🌐 **𝗖𝗘𝗡𝗧𝗥𝗔𝗟𝗜𝗭𝗘𝗗 𝗖𝗢𝗟𝗟𝗘𝗚𝗘 𝗘𝗩𝗘𝗡𝗧 𝗛𝗨𝗕**
+🌐 **𝗖𝗢𝗟𝗟𝗘𝗚𝗘 𝗘𝗩𝗘𝗡𝗧 𝗛𝗨𝗕**
 
 🎓 **College EventHub** is a **CENTRALIZED full-stack web application** that brings all **technical college events across India** onto **one unified platform**, making it easy for students to **discover, track, and participate** in events.
 
@@ -18,7 +18,7 @@
 
 📍 Events can be explored **city-wise** or **pan-India** from a **single dashboard**.
 
-🛠️ **𝗖𝗘𝗡𝗧𝗥𝗔𝗟𝗜𝗭𝗘𝗗 𝗧𝗘𝗖𝗛 𝗦𝗧𝗔𝗖𝗞**
+🛠️ **𝗧𝗘𝗖𝗛 𝗦𝗧𝗔𝗖𝗞**
 
 🔹 **Backend (Centralized Data Handling)**
 - ☕ **Java**
@@ -35,7 +35,7 @@
 - 🎨 **Figma** *(UI/UX Design)*
 - 🧩 **uiverse.io** *(UI Components)*
 
-✨ **𝗖𝗘𝗡𝗧𝗥𝗔𝗟𝗜𝗭𝗘𝗗 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦**
+✨ **𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦**
 
 👨‍🎓 **Student Features**
 - 🔐 **Centralized User Registration & Login**
@@ -53,7 +53,7 @@
   - GitHub  
   - Other Tech Platforms  
 
-🛡️ **𝗖𝗘𝗡𝗧𝗥𝗔𝗟𝗜𝗭𝗘𝗗 𝗔𝗗𝗠𝗜𝗡 𝗣𝗔𝗡𝗘𝗟** *(Planned)*
+🛡️ **𝗔𝗗𝗠𝗜𝗡 𝗣𝗔𝗡𝗘𝗟** *(Planned)*
 
 ⚙️ **Centralized Event Management**  
 ✔ **Event Approval System**  
@@ -61,7 +61,7 @@
 📊 **Analytics & Insights Dashboard**  
 
 
-🎯 **𝗖𝗘𝗡𝗧𝗥𝗔𝗟𝗜𝗭𝗘𝗗 𝗣𝗥𝗢𝗝𝗘𝗖𝗧 𝗢𝗕𝗝𝗘𝗖𝗧𝗜𝗩𝗘**
+🎯 **𝗣𝗥𝗢𝗝𝗘𝗖𝗧 𝗢𝗕𝗝𝗘𝗖𝗧𝗜𝗩𝗘**
 ✔ **Single centralized platform** for all technical college events  
 ✔ **Eliminate scattered event information**  
 ✔ **Increase student awareness & participation**  
