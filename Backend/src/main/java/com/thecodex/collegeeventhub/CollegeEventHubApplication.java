@@ -1,0 +1,11 @@
+﻿package com.thecodex.collegeeventhub;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CollegeEventHubApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(CollegeEventHubApplication.class, args);
+    }
+}
