@@ -1,15 +1,25 @@
 import { useState } from "react";
 import { useEvents } from "@/hooks/use-events";
 import { EventCard } from "@/components/EventCard";
-import { Loader2, CalendarX2 } from "lucide-react";
+import { Loader2, CalendarX2, Rocket } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { motion } from "framer-motion";
+import { useLocation } from "wouter";
 
 const CATEGORIES = ["All", "TechEvent", "Workshop", "Seminars", "Cultural Events"];
 
 export default function Dashboard() {
+  const [, setLocation] = useLocation();
   const [selectedCategory, setSelectedCategory] = useState("All");
   const { data: events, isLoading, error } = useEvents(selectedCategory);
+
+  const handleCategoryClick = (category: string) => {
+    if (category === "TechEvent") {
+      setLocation("/techevents");
+    } else {
+      setSelectedCategory(category);
+    }
+  };
 
   return (
     <Layout>
@@ -31,7 +41,7 @@ export default function Dashboard() {
             return (
               <button
                 key={cat}
-                onClick={() => setSelectedCategory(cat)}
+                onClick={() => handleCategoryClick(cat)}
                 className={`
                   relative px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300
                   ${isActive 

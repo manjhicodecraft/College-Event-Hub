@@ -10,6 +10,7 @@ import Dashboard from "./pages/Dashboard";
 import OrganizeEvent from "./pages/OrganizeEvent";
 import Profile from "./pages/Profile";
 import NotFound from "@/pages/not-found";
+import TechEventPage from "./pages/TechEventPage";
 
 function Router() {
   return (
@@ -17,6 +18,7 @@ function Router() {
       <Route path="/" component={Dashboard} />
       <Route path="/organize" component={OrganizeEvent} />
       <Route path="/profile" component={Profile} />
+      <Route path="/techevents" component={TechEventPage} />
       <Route component={NotFound} />
     </Switch>
   );
